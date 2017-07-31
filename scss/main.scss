@@ -1,0 +1,25 @@
+/*
+* @Author: Shubham Bansal
+* @Date:   2017-07-31 04:43:15
+* @Last Modified by:   Shubham Bansal
+* @Last Modified time: 2017-07-31 05:09:51
+*/
+/* BASE - Base styles, variables, mixins etc */
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+@import 'base/_normalize.scss';
+@import 'base/_base.scss';
+
+
+/* MODULES - Individual components */
+@import 'modules/_typography.scss';
+@import 'modules/_blocks.scss';
+@import 'modules/_buttons.scss';
+@import 'modules/_sections.scss';
+@import 'modules/_components.scss';
+
+/* LAYOUTS - Page Layout styles */
+@import 'layouts/_nav.scss';
+@import 'layouts/_header.scss';
+@import 'layouts/_footer.scss';
+
